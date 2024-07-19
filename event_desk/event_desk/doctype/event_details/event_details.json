@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-19 13:45:52.704748",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "event_details_tab",
+  "title",
+  "description",
+  "slogan",
+  "logo",
+  "column_break_bxlc",
+  "starting_date",
+  "ending_date",
+  "venue",
+  "event_participants_tab",
+  "event_participants",
+  "programme_details_tab"
+ ],
+ "fields": [
+  {
+   "fieldname": "event_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Event Details"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "slogan",
+   "fieldtype": "Data",
+   "label": "Slogan"
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "fieldname": "column_break_bxlc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "starting_date",
+   "fieldtype": "Datetime",
+   "label": "Starting Date"
+  },
+  {
+   "fieldname": "ending_date",
+   "fieldtype": "Datetime",
+   "label": "Ending Date"
+  },
+  {
+   "fieldname": "venue",
+   "fieldtype": "Link",
+   "label": "Venue",
+   "options": "Venue"
+  },
+  {
+   "fieldname": "event_participants_tab",
+   "fieldtype": "Tab Break",
+   "label": "Event Participants"
+  },
+  {
+   "fieldname": "event_participants",
+   "fieldtype": "Table",
+   "label": "Event Participants",
+   "options": "Event Participant"
+  },
+  {
+   "fieldname": "programme_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Programme Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 13:49:45.753483",
+ "modified_by": "Administrator",
+ "module": "Event_desk",
+ "name": "Event Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

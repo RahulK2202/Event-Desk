@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-19 13:40:14.846309",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_nvf1",
+  "participant",
+  "participant_name",
+  "participant_role"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_nvf1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "participant_name",
+   "fieldtype": "Data",
+   "label": "Participant Name"
+  },
+  {
+   "fieldname": "participant_role",
+   "fieldtype": "Link",
+   "label": "Participant Role",
+   "options": "Role"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 13:41:22.265470",
+ "modified_by": "Administrator",
+ "module": "Event_desk",
+ "name": "Event Participant",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

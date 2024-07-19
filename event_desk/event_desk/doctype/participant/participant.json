@@ -1,0 +1,332 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-19 13:02:31.746599",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "profile_tab",
+  "participant_details_section",
+  "participant_series",
+  "first_name",
+  "last_name",
+  "full_name",
+  "email",
+  "mobile_number",
+  "column_break_nowr",
+  "gender",
+  "age",
+  "status",
+  "date_of_birth",
+  "profile_photo",
+  "qr",
+  "address_section",
+  "residential_address",
+  "street",
+  "city",
+  "country",
+  "column_break_vmsw",
+  "address_line_1",
+  "postal_or_pin_code",
+  "stateprovince",
+  "emergency_contact_section",
+  "emergency_contact_name",
+  "emergency_contact_phone_number",
+  "column_break_t54u",
+  "emergency_contact_email",
+  "passport_details_section",
+  "passport_first_name",
+  "passport_last_name",
+  "date_of_issue",
+  "place_of_issue",
+  "date_of_expiry",
+  "column_break_1evi",
+  "passport_number",
+  "passport_nationality",
+  "country_of_residence",
+  "country_of_nationality",
+  "id__passport_photo",
+  "arrival_details_section",
+  "arrival_at",
+  "arrival_date_and_time",
+  "flight_number_arrival",
+  "column_break_chhw",
+  "airlinedeparture",
+  "flight_numberdeparture",
+  "airlinedeparture_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "profile_tab",
+   "fieldtype": "Tab Break",
+   "label": "Profile"
+  },
+  {
+   "fieldname": "participant_details_section",
+   "fieldtype": "Section Break",
+   "label": "Participant Details"
+  },
+  {
+   "fieldname": "participant_series",
+   "fieldtype": "Select",
+   "label": "Participant Series"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "column_break_nowr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nRegistered"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "profile_photo",
+   "fieldtype": "Attach Image",
+   "label": "Profile Photo"
+  },
+  {
+   "fieldname": "qr",
+   "fieldtype": "HTML",
+   "label": "QR"
+  },
+  {
+   "fieldname": "address_section",
+   "fieldtype": "Section Break",
+   "label": "Address"
+  },
+  {
+   "fieldname": "residential_address",
+   "fieldtype": "Data",
+   "label": "Residential Address"
+  },
+  {
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "Street"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City "
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "column_break_vmsw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_line_1",
+   "fieldtype": "Data",
+   "label": "Address LIne 1"
+  },
+  {
+   "fieldname": "postal_or_pin_code",
+   "fieldtype": "Data",
+   "label": "Postal or PIN Code"
+  },
+  {
+   "fieldname": "stateprovince",
+   "fieldtype": "Data",
+   "label": "State/Province"
+  },
+  {
+   "fieldname": "emergency_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Emergency Contact"
+  },
+  {
+   "fieldname": "emergency_contact_name",
+   "fieldtype": "Data",
+   "label": "Emergency Contact Name"
+  },
+  {
+   "fieldname": "emergency_contact_phone_number",
+   "fieldtype": "Data",
+   "label": "Emergency Contact Phone Number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "column_break_t54u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "emergency_contact_email",
+   "fieldtype": "Data",
+   "label": "Emergency Contact Email"
+  },
+  {
+   "fieldname": "passport_details_section",
+   "fieldtype": "Section Break",
+   "label": "Passport Details"
+  },
+  {
+   "fieldname": "passport_first_name",
+   "fieldtype": "Data",
+   "label": "Passport First name"
+  },
+  {
+   "fieldname": "passport_last_name",
+   "fieldtype": "Data",
+   "label": "Passport Last name"
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "label": "Date of issue"
+  },
+  {
+   "fieldname": "place_of_issue",
+   "fieldtype": "Data",
+   "label": "Place of issue"
+  },
+  {
+   "fieldname": "date_of_expiry",
+   "fieldtype": "Date",
+   "label": "Date of expiry"
+  },
+  {
+   "fieldname": "column_break_1evi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "passport_number",
+   "fieldtype": "Data",
+   "label": "Passport Number"
+  },
+  {
+   "fieldname": "passport_nationality",
+   "fieldtype": "Data",
+   "label": "Passport Nationality"
+  },
+  {
+   "fieldname": "country_of_residence",
+   "fieldtype": "Data",
+   "label": "Country of residence",
+   "options": "Country"
+  },
+  {
+   "fieldname": "country_of_nationality",
+   "fieldtype": "Data",
+   "label": "Country of nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "id__passport_photo",
+   "fieldtype": "Attach Image",
+   "label": "ID / Passport Photo"
+  },
+  {
+   "fieldname": "arrival_details_section",
+   "fieldtype": "Section Break",
+   "label": "Arrival Details"
+  },
+  {
+   "fieldname": "arrival_at",
+   "fieldtype": "Data",
+   "label": "Arrival at"
+  },
+  {
+   "fieldname": "arrival_date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Arrival Date and Time"
+  },
+  {
+   "fieldname": "flight_number_arrival",
+   "fieldtype": "Data",
+   "label": "Flight Number (Arrival)"
+  },
+  {
+   "fieldname": "column_break_chhw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "airlinedeparture",
+   "fieldtype": "Data",
+   "label": "Airline(Departure)"
+  },
+  {
+   "fieldname": "flight_numberdeparture",
+   "fieldtype": "Data",
+   "label": "Flight Number(Departure)"
+  },
+  {
+   "fieldname": "airlinedeparture_date",
+   "fieldtype": "Datetime",
+   "label": "Airline(Departure Date)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 13:22:58.542467",
+ "modified_by": "Administrator",
+ "module": "Event_desk",
+ "name": "Participant",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
