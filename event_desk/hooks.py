@@ -9,10 +9,7 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
-fixtures = [
- {"dt": "DocType", "filters": [["module", "=", "Event_desk"]],
-    "prefix": "eventapp_custom_doctypes"}
-]
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/event_desk/css/event_desk.css"
 # app_include_js = "/assets/event_desk/js/event_desk.js"
